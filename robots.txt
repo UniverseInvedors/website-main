@@ -1,0 +1,14 @@
+﻿# robots.txt — universeinvedors.tech (root website)
+# https://universeinvedors.tech/robots.txt
+#
+# Allows all crawlers on the main site.
+# Each subdomain project has its own robots.txt.
+
+User-agent: *
+Allow: /
+
+# Block access to any internal/config paths that should never be indexed
+Disallow: /404.html
+
+# Sitemap location
+Sitemap: https://universeinvedors.tech/sitemap.xml

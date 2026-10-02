@@ -1,0 +1,18 @@
+﻿# Cloudflare Pages — Redirects
+# https://developers.cloudflare.com/pages/configuration/redirects/
+#
+# Format: /source /destination [status]
+# 301 = permanent, 302 = temporary
+
+# Redirect www to apex (or vice-versa — pick ONE and remove the other)
+# Option A: www → apex (most common)
+https://www.universeinvedors.tech/* https://universeinvedors.tech/:splat 301
+
+# Option B: apex → www (uncomment if you prefer this)
+# https://universeinvedors.tech/* https://www.universeinvedors.tech/:splat 301
+
+# Example: redirect old URLs to new ones
+# /old-page   /new-page   301
+
+# SPA fallback — only uncomment if this becomes a single-page app
+# /*   /index.html  200

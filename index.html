@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ── Primary SEO ─────────────────────────────────────────────── -->
+  <title>universeinvedors.tech — Platform Under Development</title>
+  <meta name="description"
+        content="A growing platform of independent web projects. Coming soon." />
+  <link rel="canonical" href="https://universeinvedors.tech/" />
+
+  <!-- ── Robots ──────────────────────────────────────────────────── -->
+  <meta name="robots" content="index, follow" />
+
+  <!-- ── Open Graph ──────────────────────────────────────────────── -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://universeinvedors.tech/" />
+  <meta property="og:title"       content="universeinvedors.tech — Platform Under Development" />
+  <meta property="og:description" content="A growing platform of independent web projects. Coming soon." />
+  <meta property="og:image"       content="https://universeinvedors.tech/assets/og-image.png" />
+
+  <!-- ── Twitter / X Card ────────────────────────────────────────── -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:url"         content="https://universeinvedors.tech/" />
+  <meta name="twitter:title"       content="universeinvedors.tech — Platform Under Development" />
+  <meta name="twitter:description" content="A growing platform of independent web projects. Coming soon." />
+  <meta name="twitter:image"       content="https://universeinvedors.tech/assets/og-image.png" />
+
+  <!-- ── Favicon ─────────────────────────────────────────────────── -->
+  <link rel="icon"             href="/assets/icons/favicon.ico" sizes="any" />
+  <link rel="icon"             href="/assets/icons/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png" />
+
+  <!-- ── Theme color ─────────────────────────────────────────────── -->
+  <meta name="theme-color" content="#0d1117" />
+
+  <!-- ── Structured data (WebSite) ───────────────────────────────── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "universeinvedors.tech",
+    "url": "https://universeinvedors.tech/",
+    "description": "A growing platform of independent web projects."
+  }
+  </script>
+
+  <!-- ── Stylesheet ──────────────────────────────────────────────── -->
+  <link rel="stylesheet" href="/css/style.css" />
+
+  <!-- ── Preconnect for Google Fonts (optional, remove if unused) ── -->
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com" /> -->
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+</head>
+
+<body>
+
+  <!-- Screen-reader live region -->
+  <div id="sr-live" role="status" aria-live="polite" class="sr-only"></div>
+
+  <!-- Skip navigation link -->
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- ── Header ───────────────────────────────────────────────────── -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="nav__logo" href="/" aria-label="universeinvedors.tech home">universeinvedors.tech</a>
+        <ul class="nav__links" role="list">
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="/about.html">Info</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ── Main ─────────────────────────────────────────────────────── -->
+  <main id="main-content">
+
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="hero__badge" aria-label="Status: Platform in development">
+          In development
+        </div>
+        <h1 class="hero__title" id="hero-title">
+          A platform of <em>independent</em><br />web projects
+        </h1>
+        <p class="hero__subtitle">
+          Multiple focused tools and resources are being prepared.
+          Each one will launch on its own subdomain.
+        </p>
+        <div class="btn-group">
+          <a class="btn btn--primary" href="#projects">See upcoming projects</a>
+          <a class="btn btn--ghost"   href="/about.html">About this platform</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Status strip -->
+    <div class="status-strip" role="note">
+      Infrastructure ready · Projects launching soon
+    </div>
+
+    <!-- Features -->
+    <section class="features" aria-labelledby="features-title">
+      <div class="container">
+        <p class="section-label">Architecture</p>
+        <h2 class="section-title" id="features-title">Built for scale from day one</h2>
+        <div class="features__grid" role="list">
+
+          <article class="card" role="listitem">
+            <div class="card__icon" aria-hidden="true">⚡</div>
+            <h3 class="card__title">Static &amp; Fast</h3>
+            <p class="card__desc">
+              Every project is a static website served through Cloudflare's global CDN.
+              No servers to manage.
+            </p>
+          </article>
+
+          <article class="card" role="listitem">
+            <div class="card__icon" aria-hidden="true">🔒</div>
+            <h3 class="card__title">HTTPS Everywhere</h3>
+            <p class="card__desc">
+              All subdomains are served over HTTPS with automatic TLS certificates
+              managed by Cloudflare.
+            </p>
+          </article>
+
+          <article class="card" role="listitem">
+            <div class="card__icon" aria-hidden="true">📦</div>
+            <h3 class="card__title">Isolated Projects</h3>
+            <p class="card__desc">
+              Each project lives on its own subdomain and deploys independently.
+              A change to one project never affects another.
+            </p>
+          </article>
+
+          <article class="card" role="listitem">
+            <div class="card__icon" aria-hidden="true">🔍</div>
+            <h3 class="card__title">SEO Ready</h3>
+            <p class="card__desc">
+              Every subdomain has its own canonical URL, metadata, sitemap, and
+              structured data — independently crawlable.
+            </p>
+          </article>
+
+          <article class="card" role="listitem">
+            <div class="card__icon" aria-hidden="true">🚀</div>
+            <h3 class="card__title">Git-Driven Deploys</h3>
+            <p class="card__desc">
+              Push to GitHub and Cloudflare Pages deploys automatically.
+              No manual upload or FTP required.
+            </p>
+          </article>
+
+          <article class="card" role="listitem">
+            <div class="card__icon" aria-hidden="true">📱</div>
+            <h3 class="card__title">Mobile First</h3>
+            <p class="card__desc">
+              Every page is designed and tested for mobile, tablet, and desktop.
+              Core Web Vitals are a baseline requirement.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Upcoming projects -->
+    <section class="projects" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <p class="section-label">Coming soon</p>
+        <h2 class="section-title" id="projects-title">Upcoming projects</h2>
+        <p style="text-align:center;color:var(--color-muted);margin-top:-.5rem;margin-bottom:2rem;font-size:.9rem;">
+          Project names will be listed here once announced.
+        </p>
+        <ul class="projects__list" role="list">
+          <!-- Placeholder slots — replace with real project cards when ready -->
+          <li class="project-card" aria-label="Project slot 1">
+            <span class="project-card__label">Slot 01</span>
+            <span class="project-card__name">Coming soon</span>
+          </li>
+          <li class="project-card" aria-label="Project slot 2">
+            <span class="project-card__label">Slot 02</span>
+            <span class="project-card__name">Coming soon</span>
+          </li>
+          <li class="project-card" aria-label="Project slot 3">
+            <span class="project-card__label">Slot 03</span>
+            <span class="project-card__name">Coming soon</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- About blurb -->
+    <section id="about" aria-labelledby="about-title"
+             style="padding:5rem 0;border-top:1px solid var(--color-border);">
+      <div class="container" style="max-width:680px;text-align:center;">
+        <p class="section-label">About</p>
+        <h2 id="about-title" class="section-title">What is this platform?</h2>
+        <p style="color:var(--color-muted);font-size:.95rem;line-height:1.75;">
+          This is the root of a growing collection of independent web projects.
+          Each project will focus on a specific topic or tool and will be
+          accessible from its own subdomain. More details will be added here
+          as the platform evolves.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── Footer ───────────────────────────────────────────────────── -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <span>&copy; <span id="copyright-year"></span> universeinvedors.tech. All rights reserved.</span>
+        <ul class="footer__links" role="list">
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/privacy.html">Privacy Policy</a></li>
+          <li><a href="/terms.html">Terms of Use</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ── Scripts ──────────────────────────────────────────────────── -->
+  <script src="/js/main.js" defer></script>
+
+</body>
+</html>
