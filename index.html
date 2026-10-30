@@ -1,235 +1,319 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- ── Primary SEO ─────────────────────────────────────────────── -->
-  <title>universeinvedors.tech — Platform Under Development</title>
-  <meta name="description"
-        content="A growing platform of independent web projects. Coming soon." />
+  <title>Universe Invedors Open Library — Creative Assets &amp; Tools</title>
+  <meta name="description" content="A curated guide to creative assets, open-source tools, and browser-based utilities. Compare sources, check licenses, and choose resources with confidence." />
   <link rel="canonical" href="https://universeinvedors.tech/" />
-
-  <!-- ── Robots ──────────────────────────────────────────────────── -->
   <meta name="robots" content="index, follow" />
-
-  <!-- ── Open Graph ──────────────────────────────────────────────── -->
-  <meta property="og:type"        content="website" />
-  <meta property="og:url"         content="https://universeinvedors.tech/" />
-  <meta property="og:title"       content="universeinvedors.tech — Platform Under Development" />
-  <meta property="og:description" content="A growing platform of independent web projects. Coming soon." />
-  <meta property="og:image"       content="https://universeinvedors.tech/assets/og-image.png" />
-
-  <!-- ── Twitter / X Card ────────────────────────────────────────── -->
-  <meta name="twitter:card"        content="summary_large_image" />
-  <meta name="twitter:url"         content="https://universeinvedors.tech/" />
-  <meta name="twitter:title"       content="universeinvedors.tech — Platform Under Development" />
-  <meta name="twitter:description" content="A growing platform of independent web projects. Coming soon." />
-  <meta name="twitter:image"       content="https://universeinvedors.tech/assets/og-image.png" />
-
-  <!-- ── Favicon ─────────────────────────────────────────────────── -->
-  <link rel="icon"             href="/assets/icons/favicon.ico" sizes="any" />
-  <link rel="icon"             href="/assets/icons/favicon.svg" type="image/svg+xml" />
-  <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png" />
-
-  <!-- ── Theme color ─────────────────────────────────────────────── -->
-  <meta name="theme-color" content="#0d1117" />
-
-  <!-- ── Structured data (WebSite) ───────────────────────────────── -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://universeinvedors.tech/" />
+  <meta property="og:title" content="Universe Invedors Open Library" />
+  <meta property="og:description" content="Find creative assets and useful tools, with practical guidance for checking licenses before you use them." />
+  <meta name="theme-color" content="#10121b" />
+  <link rel="icon" href="/assets/icons/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <script src="/js/main.js" defer></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "universeinvedors.tech",
+    "name": "Universe Invedors Open Library",
     "url": "https://universeinvedors.tech/",
-    "description": "A growing platform of independent web projects."
+    "description": "A curated guide to creative resources, open-source tools, and browser utilities."
   }
   </script>
-
-  <!-- ── Stylesheet ──────────────────────────────────────────────── -->
-  <link rel="stylesheet" href="/css/style.css" />
-
-  <!-- ── Preconnect for Google Fonts (optional, remove if unused) ── -->
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com" /> -->
-  <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
 </head>
-
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-  <!-- Screen-reader live region -->
-  <div id="sr-live" role="status" aria-live="polite" class="sr-only"></div>
-
-  <!-- Skip navigation link -->
-  <a class="skip-link" href="#main-content">Skip to main content</a>
-
-  <!-- ── Header ───────────────────────────────────────────────────── -->
-  <header class="site-header" role="banner">
+  <header class="site-header">
     <div class="container">
-      <nav class="nav" aria-label="Primary navigation">
-        <a class="nav__logo" href="/" aria-label="universeinvedors.tech home">universeinvedors.tech</a>
-        <ul class="nav__links" role="list">
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="/about.html">Info</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+      <nav class="nav" aria-label="Main navigation">
+        <a class="nav__logo" href="/" aria-label="Universe Invedors Open Library home">Universe Invedors <span>Open Library</span></a>
+        <ul class="nav__links">
+          <li><a href="#library">Explore</a></li>
+          <li><a href="#credit-builder">Attribution builder</a></li>
+          <li><a href="/license-checklist.html">License checklist</a></li>
+          <li><a href="https://company.universeinvedors.tech/">Company</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <!-- ── Main ─────────────────────────────────────────────────────── -->
   <main id="main-content">
-
-    <!-- Hero -->
-    <section class="hero" aria-labelledby="hero-title">
+    <section class="library-hero">
       <div class="container">
-        <div class="hero__badge" aria-label="Status: Platform in development">
-          In development
-        </div>
-        <h1 class="hero__title" id="hero-title">
-          A platform of <em>independent</em><br />web projects
-        </h1>
-        <p class="hero__subtitle">
-          Multiple focused tools and resources are being prepared.
-          Each one will launch on its own subdomain.
+        <p class="eyebrow">A practical starting point for makers</p>
+        <h1>Find resources.<br /><span>Make something yours.</span></h1>
+        <p class="library-hero__intro">
+          Explore a carefully organized directory of creative assets, open-source
+          software, AI projects, and useful browser tools. We explain what each
+          source offers and what to verify before using its work.
         </p>
-        <div class="btn-group">
-          <a class="btn btn--primary" href="#projects">See upcoming projects</a>
-          <a class="btn btn--ghost"   href="/about.html">About this platform</a>
-        </div>
+        <a class="btn btn--primary" href="#library">Explore the library</a>
+        <p class="library-hero__note">Curated links, not a bulk mirror. Each source keeps its own terms and license records.</p>
       </div>
     </section>
 
-    <!-- Status strip -->
-    <div class="status-strip" role="note">
-      Infrastructure ready · Projects launching soon
-    </div>
-
-    <!-- Features -->
-    <section class="features" aria-labelledby="features-title">
+    <section class="library-section" id="library" aria-labelledby="library-title">
       <div class="container">
-        <p class="section-label">Architecture</p>
-        <h2 class="section-title" id="features-title">Built for scale from day one</h2>
-        <div class="features__grid" role="list">
-
-          <article class="card" role="listitem">
-            <div class="card__icon" aria-hidden="true">⚡</div>
-            <h3 class="card__title">Static &amp; Fast</h3>
-            <p class="card__desc">
-              Every project is a static website served through Cloudflare's global CDN.
-              No servers to manage.
-            </p>
-          </article>
-
-          <article class="card" role="listitem">
-            <div class="card__icon" aria-hidden="true">🔒</div>
-            <h3 class="card__title">HTTPS Everywhere</h3>
-            <p class="card__desc">
-              All subdomains are served over HTTPS with automatic TLS certificates
-              managed by Cloudflare.
-            </p>
-          </article>
-
-          <article class="card" role="listitem">
-            <div class="card__icon" aria-hidden="true">📦</div>
-            <h3 class="card__title">Isolated Projects</h3>
-            <p class="card__desc">
-              Each project lives on its own subdomain and deploys independently.
-              A change to one project never affects another.
-            </p>
-          </article>
-
-          <article class="card" role="listitem">
-            <div class="card__icon" aria-hidden="true">🔍</div>
-            <h3 class="card__title">SEO Ready</h3>
-            <p class="card__desc">
-              Every subdomain has its own canonical URL, metadata, sitemap, and
-              structured data — independently crawlable.
-            </p>
-          </article>
-
-          <article class="card" role="listitem">
-            <div class="card__icon" aria-hidden="true">🚀</div>
-            <h3 class="card__title">Git-Driven Deploys</h3>
-            <p class="card__desc">
-              Push to GitHub and Cloudflare Pages deploys automatically.
-              No manual upload or FTP required.
-            </p>
-          </article>
-
-          <article class="card" role="listitem">
-            <div class="card__icon" aria-hidden="true">📱</div>
-            <h3 class="card__title">Mobile First</h3>
-            <p class="card__desc">
-              Every page is designed and tested for mobile, tablet, and desktop.
-              Core Web Vitals are a baseline requirement.
-            </p>
-          </article>
-
+        <div class="section-heading">
+          <p class="eyebrow">Explore the collection</p>
+          <h2 id="library-title">Useful places to start</h2>
+          <p>Search the directory or filter by what you need. License terms can differ between individual items on the same platform.</p>
         </div>
+
+        <div class="library-controls">
+          <label class="sr-only" for="resource-search">Search resources</label>
+          <input id="resource-search" type="search" placeholder="Search resources, formats, or licenses…" autocomplete="off" />
+          <div class="filter-list" role="group" aria-label="Filter resources by category">
+            <button type="button" class="filter-chip is-active" data-filter="all" aria-pressed="true">All</button>
+            <button type="button" class="filter-chip" data-filter="photos" aria-pressed="false">Photos &amp; art</button>
+            <button type="button" class="filter-chip" data-filter="icons" aria-pressed="false">Icons &amp; graphics</button>
+            <button type="button" class="filter-chip" data-filter="fonts" aria-pressed="false">Fonts</button>
+            <button type="button" class="filter-chip" data-filter="3d" aria-pressed="false">3D</button>
+            <button type="button" class="filter-chip" data-filter="audio-video" aria-pressed="false">Audio &amp; video</button>
+            <button type="button" class="filter-chip" data-filter="templates" aria-pressed="false">Templates</button>
+            <button type="button" class="filter-chip" data-filter="ai" aria-pressed="false">AI &amp; open source</button>
+            <button type="button" class="filter-chip" data-filter="tools" aria-pressed="false">Browser tools</button>
+          </div>
+          <p id="results-count" class="results-count" aria-live="polite">Showing all resources</p>
+        </div>
+
+        <div class="resource-grid" id="resource-grid">
+          <article class="resource-card" data-category="photos" data-search="openverse photos illustrations audio creative commons cc0 cc by search">
+            <p class="resource-card__category">Photos &amp; illustrations</p>
+            <h3>Openverse</h3>
+            <p>Search openly licensed images and audio from multiple sources. Use the item page to verify the creator, exact license, and attribution details.</p>
+            <p class="resource-card__license">License: varies by item</p>
+            <a href="https://openverse.org/" target="_blank" rel="noopener noreferrer">Search Openverse <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="resource-card" data-category="photos" data-search="unsplash photos images free unsplash license">
+            <p class="resource-card__category">Photography</p>
+            <h3>Unsplash</h3>
+            <p>Discover editorial and decorative photography. Review the Unsplash License and any restrictions that apply to your intended use.</p>
+            <p class="resource-card__license">License: Unsplash License</p>
+            <a href="https://unsplash.com/license" target="_blank" rel="noopener noreferrer">Read the license <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="resource-card" data-category="photos" data-search="pexels photos videos free license">
+            <p class="resource-card__category">Photos &amp; video</p>
+            <h3>Pexels</h3>
+            <p>Browse stock photos and video clips. Check the platform license and avoid uses involving identifiable people, brands, or sensitive contexts without permission.</p>
+            <p class="resource-card__license">License: Pexels License</p>
+            <a href="https://www.pexels.com/license/" target="_blank" rel="noopener noreferrer">Read the license <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="resource-card" data-category="photos" data-search="undraw illustrations svg open source MIT">
+            <p class="resource-card__category">Illustrations</p>
+            <h3>unDraw</h3>
+            <p>Download customizable SVG illustrations for interfaces and presentations. Review unDraw's current terms before redistributing or reselling the files.</p>
+            <p class="resource-card__license">License: unDraw terms</p>
+            <a href="https://undraw.co/license" target="_blank" rel="noopener noreferrer">Read the terms <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="resource-card" data-category="icons" data-search="lucide icons svg ISC open source">
+            <p class="resource-card__category">Icons</p>
+            <h3>Lucide</h3>
+            <p>A consistent set of editable SVG icons for websites and apps. The project is MIT-licensed; check the repository for the current license and notices.</p>
+            <p class="resource-card__license">License: MIT</p>
+            <a href="https://github.com/lucide-icons/lucide" target="_blank" rel="noopener noreferrer">Browse the project <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="resource-card" data-category="icons" data-search="heroicons icons SVG MIT tailwind">
+            <p class="resource-card__category">Icons</p>
+            <h3>Heroicons</h3>
+            <p>Free outline and solid SVG icons designed for interface work. Review the repository license when including the files in a product.</p>
+            <p class="resource-card__license">License: MIT</p>
+            <a href="https://github.com/tailwindlabs/heroicons" target="_blank" rel="noopener noreferrer">Browse the project <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="resource-card" data-category="icons" data-search="phosphor icons MIT icon family">
+            <p class="resource-card__category">Icons</p>
+            <h3>Phosphor</h3>
+            <p>A flexible icon family with multiple weights and packages for common frameworks. Check its current license and package-specific guidance.</p>
+            <p class="resource-card__license">License: MIT</p>
+            <a href="https://github.com/phosphor-icons/core" target="_blank" rel="noopener noreferrer">Browse the project <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="resource-card" data-category="fonts" data-search="google fonts font typography SIL OFL license">
+            <p class="resource-card__category">Fonts</p>
+            <h3>Google Fonts</h3>
+            <p>Browse typefaces with license information and download options. Many are under the SIL Open Font License, but verify the license for each family.</p>
+            <p class="resource-card__license">License: varies by family</p>
+            <a href="https://fonts.google.com/" target="_blank" rel="noopener noreferrer">Browse typefaces <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="resource-card" data-category="fonts" data-search="fontsource self host fonts open source OFL">
+            <p class="resource-card__category">Fonts</p>
+            <h3>Fontsource</h3>
+            <p>Self-hostable font packages for web projects, with package metadata and license files. Confirm the selected font's license before redistribution.</p>
+            <p class="resource-card__license">License: varies by font</p>
+            <a href="https://fontsource.org/" target="_blank" rel="noopener noreferrer">Explore Fontsource <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="resource-card" data-category="3d" data-search="poly haven 3d models textures HDRI CC0">
+            <p class="resource-card__category">3D assets</p>
+            <h3>Poly Haven</h3>
+            <p>Download HDRIs, textures, and 3D models. Its assets are offered as CC0; review the site's current terms and keep a record of the source.</p>
+            <p class="resource-card__license">License: CC0</p>
+            <a href="https://polyhaven.com/license" target="_blank" rel="noopener noreferrer">Browse assets &amp; terms <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="resource-card" data-category="3d" data-search="kenney game assets 3d models textures CC0">
+            <p class="resource-card__category">Game assets</p>
+            <h3>Kenney</h3>
+            <p>Find game-ready art packs, models, and UI elements. Check the license attached to the pack you download and its attribution guidance.</p>
+            <p class="resource-card__license">License: commonly CC0; verify per pack</p>
+            <a href="https://kenney.nl/assets" target="_blank" rel="noopener noreferrer">Explore asset packs <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="resource-card" data-category="3d" data-search="ambientCG textures materials HDRI CC0">
+            <p class="resource-card__category">Materials &amp; HDRIs</p>
+            <h3>ambientCG</h3>
+            <p>Download physically based materials, models, and HDRIs. The site labels its content CC0; check its current license page for scope and details.</p>
+            <p class="resource-card__license">License: CC0</p>
+            <a href="https://ambientcg.com/" target="_blank" rel="noopener noreferrer">Browse the library <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="resource-card" data-category="audio-video" data-search="freesound sound effects music audio samples Creative Commons">
+            <p class="resource-card__category">Sound &amp; music</p>
+            <h3>Freesound</h3>
+            <p>Search community audio recordings and effects. Each recording may use a different Creative Commons license; review attribution and commercial-use rules.</p>
+            <p class="resource-card__license">License: varies by recording</p>
+            <a href="https://freesound.org/help/faq/#licenses" target="_blank" rel="noopener noreferrer">Understand the licenses <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="resource-card" data-category="audio-video" data-search="mixkit free stock music sound effects video license">
+            <p class="resource-card__category">Audio &amp; video</p>
+            <h3>Mixkit</h3>
+            <p>Browse stock video, music, and sound effects. Different asset types may have different terms, so check the license for the specific download.</p>
+            <p class="resource-card__license">License: Mixkit terms; varies by item type</p>
+            <a href="https://mixkit.co/license/" target="_blank" rel="noopener noreferrer">Read the license terms <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="resource-card" data-category="templates" data-search="github templates starter projects source code license repository">
+            <p class="resource-card__category">Templates &amp; code</p>
+            <h3>GitHub Topics: Templates</h3>
+            <p>Discover starter projects and templates. A public repository is not automatically open source—check its license file and dependency licenses before reuse.</p>
+            <p class="resource-card__license">License: set by each repository</p>
+            <a href="https://github.com/topics/template" target="_blank" rel="noopener noreferrer">Explore repositories <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="resource-card" data-category="templates" data-search="open source web templates html css website starter">
+            <p class="resource-card__category">Web templates</p>
+            <h3>HTML5 UP</h3>
+            <p>Browse responsive website templates. Review the current license and attribution requirements for the specific template before removing credits or redistributing it.</p>
+            <p class="resource-card__license">License: template terms apply</p>
+            <a href="https://html5up.net/license" target="_blank" rel="noopener noreferrer">Browse templates &amp; license <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="resource-card" data-category="ai" data-search="hugging face models datasets spaces AI license open source">
+            <p class="resource-card__category">AI models &amp; demos</p>
+            <h3>Hugging Face</h3>
+            <p>Explore models, datasets, and community demos. Model and dataset licenses differ; check usage restrictions, training data notes, and hosting terms for each project.</p>
+            <p class="resource-card__license">License: varies by model and dataset</p>
+            <a href="https://huggingface.co/models" target="_blank" rel="noopener noreferrer">Explore models <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="resource-card" data-category="ai" data-search="ComfyUI local AI workflow image generation GitHub license">
+            <p class="resource-card__category">AI workflows</p>
+            <h3>ComfyUI</h3>
+            <p>A node-based interface for building local generative-media workflows. Software, model weights, and custom nodes can have separate licenses and hardware needs.</p>
+            <p class="resource-card__license">License: project and model terms differ</p>
+            <a href="https://github.com/comfyanonymous/ComfyUI" target="_blank" rel="noopener noreferrer">Review the project <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="resource-card" data-category="tools" data-search="Universe Invedors browser tools calculator json QR code">
+            <p class="resource-card__category">Browser tools</p>
+            <h3>Everyday utility tools</h3>
+            <p>Open the platform's focused calculator, JSON, and QR utilities. Check each tool's own page for supported inputs, limitations, and data handling.</p>
+            <p class="resource-card__license">Use: browser-based utilities</p>
+            <a href="https://calc.universeinvedors.tech/" target="_blank" rel="noopener noreferrer">Open calculator tools <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="resource-card" data-category="tools" data-search="Universe Invedors browser image tool media creative">
+            <p class="resource-card__category">Browser tools</p>
+            <h3>Image &amp; media utilities</h3>
+            <p>Explore the platform's image and media utilities. Read the relevant tool page before uploading files or relying on an output for production work.</p>
+            <p class="resource-card__license">Use: browser-based utilities</p>
+            <a href="https://image.universeinvedors.tech/" target="_blank" rel="noopener noreferrer">Open image tools <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+        <p class="empty-state" id="empty-state" hidden>No resources match that search. Try another term or choose “All”.</p>
       </div>
     </section>
 
-    <!-- Upcoming projects -->
-    <section class="projects" id="projects" aria-labelledby="projects-title">
+    <section class="credit-section" id="credit-builder" aria-labelledby="credit-title">
+      <div class="container credit-layout">
+        <div>
+          <p class="eyebrow">A small tool for careful reuse</p>
+          <h2 id="credit-title">Build an attribution note</h2>
+          <p>When an asset license requires credit, collect the details from the original item page and draft a plain-text attribution. This helper does not decide whether a license permits your use.</p>
+        </div>
+        <form id="credit-form" class="credit-form">
+          <label for="credit-title-input">Asset title
+            <input id="credit-title-input" name="title" type="text" maxlength="160" required />
+          </label>
+          <label for="credit-creator">Creator
+            <input id="credit-creator" name="creator" type="text" maxlength="160" required />
+          </label>
+          <label for="credit-source">Original asset URL
+            <input id="credit-source" name="source" type="url" inputmode="url" placeholder="https://…" required />
+          </label>
+          <label for="credit-license">License URL
+            <input id="credit-license" name="license" type="url" inputmode="url" placeholder="https://…" required />
+          </label>
+          <label class="credit-form__check">
+            <input id="credit-adapted" name="adapted" type="checkbox" />
+            I modified the original asset
+          </label>
+          <button class="btn btn--primary" type="submit">Create attribution</button>
+          <label for="credit-output">Attribution draft
+            <textarea id="credit-output" rows="4" readonly placeholder="Your attribution will appear here." aria-live="polite"></textarea>
+          </label>
+          <div class="credit-form__actions">
+            <button class="btn btn--ghost" id="copy-credit" type="button" disabled>Copy attribution</button>
+            <p id="credit-status" role="status" aria-live="polite">Your entries stay in this browser and are not sent to the site.</p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="license-section" id="license-guide" aria-labelledby="license-title">
+      <div class="container license-layout">
+        <div>
+          <p class="eyebrow">Before you download</p>
+          <h2 id="license-title">A quick license check can save you trouble.</h2>
+          <p>“Free to download” does not always mean “free for every use.” A platform can host works with different creators, permissions, and restrictions. Check the license on the individual asset page—not only the site's headline or search result.</p>
+          <ol class="license-steps">
+            <li><strong>Open the original item page.</strong> Confirm the creator, source URL, and exact license attached to that file.</li>
+            <li><strong>Match the license to your use.</strong> Look for rules about commercial use, modification, redistribution, attribution, and sharing adaptations.</li>
+            <li><strong>Keep a record.</strong> Save the download date, item URL, creator name, license version, and any required credit with your project.</li>
+            <li><strong>Check people, brands, and models separately.</strong> An asset license may not include a model release, trademark permission, or rights to third-party material in the image.</li>
+          </ol>
+          <p><a class="btn btn--ghost" href="/license-checklist.html">Read the full asset license checklist</a></p>
+        </div>
+        <aside class="license-callout">
+          <h3>Common license signals</h3>
+          <ul>
+            <li><strong>CC0:</strong> designed for broad reuse, subject to rights that may not be covered by the dedication.</li>
+            <li><strong>CC BY:</strong> reuse is allowed when you give the required attribution and follow the license terms.</li>
+            <li><strong>MIT / Apache:</strong> software licenses; keep required notices and check any patent or attribution terms.</li>
+            <li><strong>OFL:</strong> designed for font software; font redistribution and embedding have specific conditions.</li>
+            <li><strong>Custom terms:</strong> read the actual terms. “Free” or “open” in a title is not a license grant.</li>
+          </ul>
+          <p>This directory is informational, not legal advice. We link to third-party sources and do not own or host the assets listed above.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="about-library">
       <div class="container">
-        <p class="section-label">Coming soon</p>
-        <h2 class="section-title" id="projects-title">Upcoming projects</h2>
-        <p style="text-align:center;color:var(--color-muted);margin-top:-.5rem;margin-bottom:2rem;font-size:.9rem;">
-          Project names will be listed here once announced.
-        </p>
-        <ul class="projects__list" role="list">
-          <!-- Placeholder slots — replace with real project cards when ready -->
-          <li class="project-card" aria-label="Project slot 1">
-            <span class="project-card__label">Slot 01</span>
-            <span class="project-card__name">Coming soon</span>
-          </li>
-          <li class="project-card" aria-label="Project slot 2">
-            <span class="project-card__label">Slot 02</span>
-            <span class="project-card__name">Coming soon</span>
-          </li>
-          <li class="project-card" aria-label="Project slot 3">
-            <span class="project-card__label">Slot 03</span>
-            <span class="project-card__name">Coming soon</span>
-          </li>
-        </ul>
+        <p class="eyebrow">How we curate</p>
+        <h2>Useful context, not a pile of downloads.</h2>
+        <p>We organize well-known sources by the kind of work they support and explain the license checks that matter. Listings are starting points, not endorsements or guarantees that every item is suitable for every project. We aim to add original guides, hands-on tool notes, and source-specific details as the collection grows.</p>
+        <p>Found a broken link or a license detail that needs an update? <a href="/contact.html">Contact the team</a>.</p>
       </div>
     </section>
-
-    <!-- About blurb -->
-    <section id="about" aria-labelledby="about-title"
-             style="padding:5rem 0;border-top:1px solid var(--color-border);">
-      <div class="container" style="max-width:680px;text-align:center;">
-        <p class="section-label">About</p>
-        <h2 id="about-title" class="section-title">What is this platform?</h2>
-        <p style="color:var(--color-muted);font-size:.95rem;line-height:1.75;">
-          This is the root of a growing collection of independent web projects.
-          Each project will focus on a specific topic or tool and will be
-          accessible from its own subdomain. More details will be added here
-          as the platform evolves.
-        </p>
-      </div>
-    </section>
-
   </main>
 
-  <!-- ── Footer ───────────────────────────────────────────────────── -->
-  <footer class="site-footer" role="contentinfo">
+  <footer class="site-footer">
     <div class="container">
       <div class="footer__inner">
-        <span>&copy; <span id="copyright-year"></span> universeinvedors.tech. All rights reserved.</span>
-        <ul class="footer__links" role="list">
+        <span>&copy; <span id="copyright-year"></span> Universe Invedors Open Library</span>
+        <ul class="footer__links">
           <li><a href="/about.html">About</a></li>
           <li><a href="/contact.html">Contact</a></li>
-          <li><a href="/privacy.html">Privacy Policy</a></li>
-          <li><a href="/terms.html">Terms of Use</a></li>
+          <li><a href="/privacy.html">Privacy</a></li>
+          <li><a href="/terms.html">Terms</a></li>
         </ul>
       </div>
     </div>
   </footer>
-
-  <!-- ── Scripts ──────────────────────────────────────────────────── -->
-  <script src="/js/main.js" defer></script>
-
 </body>
 </html>

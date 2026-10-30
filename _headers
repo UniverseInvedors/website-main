@@ -10,15 +10,15 @@
   Permissions-Policy: camera=(), microphone=(), geolocation=()
   X-XSS-Protection: 1; mode=block
 
-  # Cache static assets aggressively (Cloudflare CDN will cache these)
-  # HTML pages: short cache so updates propagate quickly
+  # CSS and JavaScript use stable, un-hashed filenames, so keep their cache short.
+  # HTML pages: revalidate so site updates propagate quickly.
   Cache-Control: public, max-age=0, must-revalidate
 
 /css/*
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: public, max-age=3600, must-revalidate
 
 /js/*
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: public, max-age=3600, must-revalidate
 
 /assets/*
   Cache-Control: public, max-age=31536000, immutable

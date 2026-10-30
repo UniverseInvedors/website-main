@@ -1,58 +1,38 @@
-﻿# website-main — universeinvedors.tech Root Site
+# Universe Invedors Open Library
 
-The root website for the universeinvedors.tech platform.
+This static site is the parent-domain resource directory for
+`https://universeinvedors.tech/`. This directory is the root of the
+`UniverseInvedors/website-main` GitHub repository and should be deployed with
+the repository root as the Cloudflare Pages output directory. The company site
+is a separate Pages project sourced from `company/` in the
+`UniverseInvedors/website-platform` repository.
 
-**Live URL:** `https://universeinvedors.tech/`
+## What this release includes
 
-This repository is deployed automatically to Cloudflare Pages on every push to `main`.
+- Searchable, category-filtered directory of selected creative-asset sources,
+  open-source projects, AI resources, and browser tools.
+- Practical guidance on checking asset licenses and attribution requirements.
+- About, privacy, terms, contact, and sitemap pages.
+- No local copies of third-party asset catalogs and no AI service/API integration.
 
----
+Each resource listing points to the original provider. Licensing can vary by
+asset, model, font family, or repository; the original item and provider terms
+are authoritative. Do not describe a third-party service as integrated unless
+it has actually been implemented and its data handling has been reviewed.
 
-## Setup checklist
+## Deployments and domain changes
 
-Before going live, replace all placeholders:
+Connect custom domains in the Cloudflare dashboard and review the manual DNS
+steps in the outer repository's `DOMAIN_SETUP.md`; this repository does not
+change DNS or Cloudflare account settings.
 
-| Placeholder              | Replace with                             |
-|--------------------------|------------------------------------------|
-| `universeinvedors.tech`              | Your actual domain (e.g. `example.com`) |
-| `[YOUR_EMAIL@EXAMPLE.COM]` | Your real contact email               |
-| `[DATE]`                 | Today's date in privacy.html / terms.html |
-| `[OWNER NAME]`           | Your name or company name               |
+Before deploying, confirm that both destinations are correct and review the
+privacy and terms notices against the actual hosting and any enabled
+third-party services.
 
-## Required assets (add before deploying)
+## AdSense
 
-```
-assets/icons/favicon.ico          — 32×32 ICO
-assets/icons/favicon.svg          — Scalable SVG
-assets/icons/apple-touch-icon.png — 180×180 PNG
-assets/images/og-image.png        — 1200×630 PNG (social sharing preview)
-```
-
-Generate favicons at [favicon.io](https://favicon.io).
-
-## Deployment
-
-Connected to Cloudflare Pages. Push to `main` → auto-deploys.
-
-See `PROJECT_SETUP.md` in the repository root for full deployment instructions.
-
-## Files
-
-```
-├── _headers       — HTTP security & cache headers (Cloudflare Pages)
-├── _redirects     — www → apex redirect (Cloudflare Pages)
-├── index.html
-├── about.html
-├── contact.html
-├── privacy.html
-├── terms.html
-├── 404.html
-├── robots.txt
-├── sitemap.xml
-├── ads.txt        — Update with real AdSense ID after approval
-├── css/style.css
-├── js/main.js
-└── assets/
-    ├── images/
-    └── icons/
-```
+No AdSense code is enabled in this site. Review it for quality, accessibility,
+and policy readiness, then request review for the root site in the AdSense
+dashboard. Approval is not guaranteed. Add publisher code only after the
+account and specific site are eligible and approved.
