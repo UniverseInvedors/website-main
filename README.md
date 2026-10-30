@@ -4,8 +4,8 @@ This static site is the parent-domain resource directory for
 `https://universeinvedors.tech/`. This directory is the root of the
 `UniverseInvedors/website-main` GitHub repository and should be deployed with
 the repository root as the Cloudflare Pages output directory. The company site
-is a separate Pages project sourced from `company/` in the
-`UniverseInvedors/website-platform` repository.
+is a separate Pages project built from the production Next.js application in
+`UniverseInvedors/organization-website`.
 
 ## What this release includes
 
@@ -22,9 +22,11 @@ it has actually been implemented and its data handling has been reviewed.
 
 ## Deployments and domain changes
 
-Connect custom domains in the Cloudflare dashboard and review the manual DNS
-steps in the outer repository's `DOMAIN_SETUP.md`; this repository does not
-change DNS or Cloudflare account settings.
+The `organization-website` deployment workflow deploys this repository to the
+`website-main` Pages project and binds the root domain to it. It deploys the
+company application separately and binds the company subdomain. Review the
+outer repository's `DOMAIN_SETUP.md` for the intended hostnames and
+troubleshooting.
 
 Before deploying, confirm that both destinations are correct and review the
 privacy and terms notices against the actual hosting and any enabled
