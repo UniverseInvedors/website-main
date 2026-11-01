@@ -34,7 +34,9 @@ third-party services.
 
 ## AdSense
 
-No AdSense code is enabled in this site. Review it for quality, accessibility,
-and policy readiness, then request review for the root site in the AdSense
-dashboard. Approval is not guaranteed. Add publisher code only after the
-account and specific site are eligible and approved.
+The static pages load the configured AdSense publisher script and
+`ads.txt` identifies the existing publisher account. Ad serving still depends
+on the site's AdSense eligibility and account-level settings; adding the
+script does not guarantee approval, ad impressions, or revenue. Keep ads
+visually separate from navigation and interactive controls, and review the
+site's layout and consent requirements before enabling additional placements.
